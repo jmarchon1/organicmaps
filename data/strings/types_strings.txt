@@ -1552,7 +1552,7 @@
     zh-Hant = 大使館
 
   [type.amenity.fast_food]
-    en = Fast Food
+    en = Fast Food Restaurant
     ar = وجبات سريعة
     cs = Rychlé občerstvení
     da = Fastfood
@@ -2152,7 +2152,7 @@
     zh-Hant = 養老院
 
   [type.amenity.parking]
-    en = Parking
+    en = Parking Lot
     ar = موقف سيارات
     be = Паркоўка
     bg = Паркинг
@@ -2190,7 +2190,7 @@
     zh-Hant = 停車場
 
   [type.amenity.parking.fee]
-    en = Paid Parking
+    en = Paid Parking Lot
     ar = موقف سيارات مدفوع
     be = Платная паркоўка
     bg = Платен паркинг
@@ -2227,7 +2227,7 @@
     zh-Hant = 付費停車
 
   [type.amenity.parking.multi.storey]
-    en = Multi Storey Parking
+    en = Multi Storey Parking Lot
     ar = موقف سيارات متعدد الطوابق
     be = Шматпавярховая паркоўка
     bg = Многоетажен паркинг
@@ -2266,12 +2266,12 @@
 
   [type.amenity.parking.no.access]
     ref = type.amenity.parking.private
-
+    
   [type.amenity.parking.permissive]
     ref = type.amenity.parking.private
 
   [type.amenity.parking.private]
-    en = Private Parking
+    en = Private Parking Lot
     ar = موقف سيارات خاص
     be = Прыватная паркоўка
     bg = Частен паркинг
@@ -2310,7 +2310,7 @@
     zh-Hant = 私人停車場
 
   [type.amenity.parking.park_and_ride]
-    en = Parking
+    en = Parking Lot
     ar = موقف سيارات
     cs = Parkoviště
     da = Parkering
@@ -2345,7 +2345,7 @@
     zh-Hant = 停車場
 
   [type.amenity.parking.underground]
-    en = Underground Parking
+    en = Underground Parking Lot
     ar = موقف سيارات تحت الأرض
     be = Падземны паркінг
     bg = Подземен паркинг
@@ -2382,7 +2382,7 @@
     zh-Hant = 地下停車場
 
   [type.amenity.parking_entrance]
-    en = Parking entrance
+    en = Parking Entrance
     ar = مدخل موقف سيارات
     be = Уваход на паркоўку
     bg = Вход за паркинг
@@ -2420,7 +2420,8 @@
 
   [type.amenity.parking_entrance.private]
     ref = type.amenity.parking_entrance
-
+    en = Privat Parking Entrance
+    
   [type.amenity.parking_entrance.permissive]
     ref = type.amenity.parking_entrance
 
@@ -2497,7 +2498,7 @@
     zh-Hant = 停車地點
 
   [type.amenity.parking_space.private]
-    en = Parking Space
+    en = Private Parking Space
     ar = مكان لوقوف السيارات
     cs = Prostor pro parkování
     da = Parkeringsplads
@@ -2533,7 +2534,7 @@
     zh-Hant = 停車地點
 
   [type.amenity.parking_space.underground]
-    en = Parking Space
+    en = Underground Parking Space
     ar = مكان لوقوف السيارات
     cs = Prostor pro parkování
     da = Parkeringsplads
@@ -2569,7 +2570,7 @@
     zh-Hant = 停車地點
 
   [type.amenity.parking_space.disabled]
-    en = Disabled Parking Space
+    en = Accesible Parking Space
     ar = مكان لوقوف السيارات لذوي الاحتياجات الخاصة
     be = Паркоўка для інвалідаў
     bg = Паркомясто за инвалиди
@@ -3770,7 +3771,7 @@
     zh-Hant = 計程車
 
   [type.amenity.telephone]
-    en = Phone
+    en = Telephone
     ar = هاتف
     cs = Telefon
     da = Telefon
@@ -4088,7 +4089,7 @@
     uk = Автомат з їжею
 
   [type.amenity.vending_machine.newspapers]
-    en = Newspapers Dispenser
+    en = Newspaper Dispenser
     be = Газетны аўтамат
     de = Zeitungsautomat
     es = Máquina expendedora de periódicos
@@ -4104,7 +4105,7 @@
     uk = Газетний автомат
 
   [type.amenity.vending_machine.parking_tickets]
-    en = Parking Tickets
+    en = Parking Ticket Dispenser
     ar = ماكينة دفع تذاكر الموقف
     be = Паркамат
     cs = Parkovací automat
@@ -4195,7 +4196,7 @@
     uk = Автомат із солодощами
 
   [type.amenity.vending_machine.excrement_bags]
-    en = Excrement Bags Dispenser
+    en = Excrement Bag Dispenser
     ar = ماكينة بيع حقائب النفايات
     be = Мяшкі дзеля экскрыментаў
     de = Hundekotbeutelspender
@@ -4244,7 +4245,7 @@
     uk = Паливна колонка
 
   [type.amenity.veterinary]
-    en = Veterinary Doctor
+    en = Veterinary Clinic
     ar = طبيب بيطري
     cs = Veterinář
     da = Dyrlæge
@@ -4456,7 +4457,7 @@
     zh-Hant = 街區
 
   [type.barrier.bollard]
-    en = Pillar
+    en = Bollard
     ar = عمود حاجز قصير
     cs = Pilíř
     da = Søjle
@@ -5284,7 +5285,7 @@
     zh-Hant = 建築物
 
   [type.building.train_station]
-    en = Train Station
+    en = Train Station Building
     ar = محطة سكك حديدية
     cs = Železniční stanice
     da = Togstation
@@ -5641,7 +5642,7 @@
     zh-Hant = 電工
 
   [type.craft.electronics_repair]
-    en = Electronics Repair
+    en = Electronics Repair Shop
     ar = إصلاح الإلكترونيات
     be = Рамонт электронікі
     bg = Ремонт на електроника
@@ -15936,7 +15937,7 @@
     zh-Hant = 果園
 
   [type.natural.peak]
-    en = Peak
+    en = Mountain Peak
     ar = قمة
     be = Вяршыня
     bg = Връх
@@ -20498,7 +20499,7 @@
     zh-Hant = 五金行
 
   [type.shop.dry_cleaning]
-    en = Dry Cleaning
+    en = Dry Cleaner
     ar = غسيل جاف
     cs = Chemické čištění
     da = Renseri
@@ -20533,7 +20534,7 @@
     zh-Hant = 乾洗
 
   [type.shop.electronics]
-    en = Electronics
+    en = Electronics Shop
     ar = متجر إلكترونيات
     cs = Elektronika
     da = Elektronikbutik
@@ -21163,7 +21164,7 @@
     zh-Hant = 廚房用品店
 
   [type.shop.laundry]
-    en = Laundry
+    en = Laundromat
     ar = مغسلة ملابس
     cs = Prádelna
     da = Vaskeri
@@ -21267,7 +21268,7 @@
     zh-Hant = 按摩館
 
   [type.shop.mobile_phone]
-    en = Cell Phones
+    en = Cell Phone Store
     en-GB = Mobile Phones
     ar = متجر هواتف محمولة
     cs = Mobily
@@ -21728,7 +21729,7 @@
     zh-Hant = 魚販
 
   [type.shop.second_hand]
-    en = Second Hand
+    en = Second Hand Store
     ar = ﺔﻠﻤﻌﺘﺴﻣ ﺕﺍﻭﺩﺍ ﺮﺠﺘﻣ
     be = Крама сэканд-хэнд
     bg = Магазин втора употреба
